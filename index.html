@@ -862,7 +862,7 @@ footer {
       <div class="donut-chart">
         <svg id="donut-svg" class="donut-svg" viewBox="0 0 180 180"></svg>
         <div class="donut-center">
-          <div class="donut-total" id="donut-total">64</div>
+          <div class="donut-total" id="donut-total">74</div>
           <div class="donut-sub">RANKERS</div>
         </div>
       </div>
@@ -1266,27 +1266,27 @@ function getFallbackData() {
     meta: { exam:"INI-CET MAY 2026", lastUpdated: new Date().toISOString() },
     kpis: { totalRankers:74, f2fRankers:33, interviewsPublished:13, instagramPosts:64, careCallingReach:301, careCallingAttempts:7 },
     rankDistribution: [
-      { range:"Top 10", count:2 },{ range:"10-100", count:9 },
-      { range:"101–300", count:20 },{ range:"301–500", count:14 },{ range:"501–1000", count:19 }
+      { range:"Top 10", count:2 },{ range:"10-100", count:11 },
+      { range:"101–300", count:22 },{ range:"301–500", count:16 },{ range:"501–1000", count:23 }
     ],
     plans: [
-      { name:"Face to Face Classes", short:"F2F",           count:33, color:"#FF6B35" },
-      { name:"Live 360",             short:"Live 360",       count:17, color:"#4F46E5" },
-      { name:"Live T&D",             short:"Live T&D",       count:7,  color:"#0EA5E9" },
-      { name:"Advance Plus",         short:"Adv+",           count:4,  color:"#10B981" },
+      { name:"Face to Face Classes", short:"F2F",           count:34, color:"#FF6B35" },
+      { name:"Live 360",             short:"Live 360",       count:18, color:"#4F46E5" },
+      { name:"Live T&D",             short:"Live T&D",       count:10,  color:"#0EA5E9" },
+      { name:"Advance Plus",         short:"Adv+",           count:9,  color:"#10B981" },
       { name:"Essential",            short:"Essential",      count:2,  color:"#8B5CF6" },
       { name:"Pre Foundation",       short:"Pre Foundation", count:1,  color:"#EC4899" }
     ],
     planRankMatrix: [
-      { plan:"Face to Face Classes", top10:0, top100:2, r101_300:12, r301_500:5,  r501_1000:14 },
-      { plan:"Live 360",             top10:0, top100:4, r101_300:6,  r301_500:3,  r501_1000:4  },
-      { plan:"Live T&D",             top10:1, top100:0, r101_300:2,  r301_500:3,  r501_1000:1  },
-      { plan:"Advance Plus",         top10:0, top100:1, r101_300:0,  r301_500:3,  r501_1000:0  },
+      { plan:"Face to Face Classes", top10:0, top100:2, r101_300:12, r301_500:5,  r501_1000:15 },
+      { plan:"Live 360",             top10:0, top100:4, r101_300:7,  r301_500:3,  r501_1000:4  },
+      { plan:"Live T&D",             top10:1, top100:1, r101_300:3,  r301_500:4,  r501_1000:1  },
+      { plan:"Advance Plus",         top10:0, top100:2, r101_300:0,  r301_500:4,  r501_1000:3  },
       { plan:"Essential",            top10:1, top100:1, r101_300:0,  r301_500:0,  r501_1000:0  },
       { plan:"Pre Foundation",       top10:0, top100:1, r101_300:0,  r301_500:0,  r501_1000:0  }
     ],
     centers: [
-      { name:"Hyderabad",   count:7, medal:"gold"   },
+      { name:"Hyderabad",   count:8, medal:"gold"   },
       { name:"Calicut",     count:6, medal:"silver" },
       { name:"Delhi",       count:6, medal:"bronze" },
       { name:"Bangalore",   count:5 },
@@ -1299,7 +1299,7 @@ function getFallbackData() {
       { center:"Calicut",     top100:1, r101_300:5, r301_500:0, r501_1000:0 },
       { center:"Cochin",      top100:1, r101_300:2, r301_500:0, r501_1000:1 },
       { center:"Delhi",       top100:0, r101_300:1, r301_500:1, r501_1000:4 },
-      { center:"Hyderabad",   top100:0, r101_300:2, r301_500:2, r501_1000:3 },
+      { center:"Hyderabad",   top100:0, r101_300:2, r301_500:2, r501_1000:4 },
       { center:"Bangalore",   top100:0, r101_300:1, r301_500:1, r501_1000:3 },
       { center:"Vizag",       top100:0, r101_300:1, r301_500:0, r501_1000:2 },
       { center:"Bhubaneswar", top100:0, r101_300:0, r301_500:1, r501_1000:0 },
@@ -1339,3 +1339,4 @@ document.addEventListener('DOMContentLoaded', boot);
 </script>
 </body>
 </html>
+
